@@ -1,8 +1,16 @@
 .cis260special {
     color:rgb(189, 48, 57);
+    font-size: 50px
     
-    
+        
 }
+
+html {
+    box-sizing: border-box ;
+    margin: 0;
+    color: #ccc;
+}
+
 
 .main-nav {
     text-transform: uppercase;
@@ -21,19 +29,56 @@
     
 }
 #cis-special-parent a {
-    color: rgb(189, 48, 57)
+    color: rgb(189, 48, 57) 
+        
     
+}
+
+h1{
+    color: rgb(189, 48, 57) ;
+    font-size: 50px
+}
+
+h2{
+    color: rgb(189, 48, 57);
+    font-size: 25px;
+    
+        
 }
 
 body{
     background-image: url(Images/new.jpg); 
+/*    background-color: (rgba(0,0,0,0.56));*/
     
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.96)), rgba(0,0,0,.9));*/
+    
+/*    background-image: rgba(0, 0, 0.56)), rgba(0,0,0,.6));*/
     background-size: cover ;
     background-position: center ;
     min-height: 100vh;
     
-    
-        
-        
+/*    display: flex ;*/
+/*    flex-direction: row*/
+           
 }
+
+main {
+    display: flex ;
+    align-items: center;
+    flex: 1;
+    flex-direction:column;
+    
+}
+
+p{
+    color:aliceblue
+}
+
+
+.container__item {
+    
+/*    flex-basis default is auto */
+/*    flex-basis: 30%; */
+    width: 100px;
+    height: 100px;
+}
+
