@@ -35,23 +35,46 @@ html {
 }
 
 h1{
-    color: rgb(189, 48, 57) ;
+    color: rgb(189, 48, 57);
     font-size: 50px
 }
 
 h2{
     color: rgb(189, 48, 57);
-    font-size: 25px;
+    font-size: 50px;
+    text-align: center
     
         
 }
+.pic{
+    object-fit: cover;
+     object-position: 54%;
+    width: 300px ;
+    height: 337px;
+    
+    
+}
 
 body{
-    background-image: url(Images/new.jpg); 
-/*    background-color: (rgba(0,0,0,0.56));*/
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(Images/new.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-attachment:fixed;
+}
+
+.hero-text {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+
+/*    
     
     
-/*    background-image: rgba(0, 0, 0.56)), rgba(0,0,0,.6));*/
     background-size: cover ;
     background-position: center ;
     min-height: 100vh;
