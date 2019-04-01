@@ -46,15 +46,37 @@ h2{
     
         
 }
+
+.now{
+    display: flex
+        
+}
 .pic{
     object-fit: cover;
      object-position: 54%;
     width: 300px ;
     height: 337px;
+    flex: 1;
+
     
     
 }
+.box{
+    flex: 2;
+    
+        
+        
+}
 
+.quote{
+    color: rgb(189, 48, 57);
+    flex-wrap: wrap;
+    font-size: 25px;
+    background-color:rgba(57, 62, 175, 0.59);
+    border-color: aliceblue;
+    
+        
+}
 body{
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(Images/new.jpg);
@@ -71,6 +93,8 @@ body{
     display: flex;
     flex-direction: column;
     flex: 5;
+    color: rgb(189, 48, 57)
+   
 
 /*    
     
@@ -99,9 +123,21 @@ p{
 
 .container__item {
     
-/*    flex-basis default is auto */
-/*    flex-basis: 30%; */
     width: 100px;
     height: 100px;
+    flex-direction: row
 }
 
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+ul{
+    list-style-type: none
+}
+
+a:hover{
+    color: aliceblue
+}
