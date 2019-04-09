@@ -1,3 +1,21 @@
+a{
+    color: darkblue;
+   
+    
+    
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
 .cis260special {
     color:rgb(189, 48, 57);
     font-size: 50px
@@ -14,7 +32,6 @@ html {
 
 .main-nav {
     display: flex; 
-    
     text-transform: uppercase;
     font-size: 150%;
     text-decoration-color:rgb(189, 48, 57);
@@ -26,6 +43,23 @@ html {
         
     
 }
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-style:solid;
+    border-color: darkblue;
+    
+}
+
+/*form p {*/
+/*    display: flex;*/
+/*    margin-bottom: 1em;*/
+    
+    
+/*}*/
+
+
 #cis-special-parent a {
     color: rgb(189, 48, 57) 
         
@@ -45,10 +79,7 @@ h2{
         
 }
 
-.now{
-    display: flex
-        
-}
+
 .pic{
     object-fit: cover;
      object-position: 54%;
@@ -60,8 +91,12 @@ h2{
     
 }
 .box{
+    display: flex;
+    flex-direction: row;
     flex: 2;
-    text-align: right;
+    padding: 5em;
+    font-size: 15px;
+    
     
     
         
@@ -117,7 +152,8 @@ main {
 }
 
 p{
-    color:aliceblue
+    color:#ffffff;
+   
 }
 
 
@@ -129,15 +165,30 @@ p{
 }
 
 footer {
-    background-color: #FFFFFF;
+    background-color: #eb7e7e;
     display: flex;
     flex-direction: column;
     align-items:center;
+    border-top-style: solid;
+    border-top-color: darkblue;
+    
 }
+/*
 ul{
     list-style-type: none
 }
+*/
 
 a:hover{
     color: aliceblue
+}
+a:visited{
+    text-decoration: none;
+    
+
+}
+
+nav{
+    display: flex;
+    flex-direction:
 }
