@@ -50,18 +50,20 @@ html {
 form {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    border-style:solid;
-    border-color: darkblue;
+    padding: 4em;
     
+
 }
 
-/*form p {*/
-/*    display: flex;*/
-/*    margin-bottom: 1em;*/
-    
-    
-/*}*/
+form label {
+    flex-basis: 33%;
+}
+form p{
+    display: flex;
+    align-content: center;
+    font-size: 15px;
+}
+
 
 
 #cis-special-parent a {
