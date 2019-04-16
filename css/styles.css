@@ -1,5 +1,5 @@
 a{
-    color: darkblue;
+    color: #FFFFFF;
     text-decoration: none;
     list-style: none;
     
@@ -22,9 +22,15 @@ header nav li {
 
 .cis260special {
     color:rgb(189, 48, 57);
-    font-size: 50px
+    font-size: 60px;
+    text-decoration-line: underline;
+    text-decoration-color: darkblue;
+    
     
         
+}
+h1{
+    text-align: center;
 }
 
 html {
@@ -189,6 +195,7 @@ footer {
 }
 footer a{
     font-size: 25px;
+    
 }
 /*
 ul{
@@ -197,7 +204,7 @@ ul{
 */
 
 a:hover{
-    color: aliceblue
+    color: #b7b8b9
 }
 a:visited{
     text-decoration: none;
