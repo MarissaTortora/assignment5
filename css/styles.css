@@ -2,6 +2,7 @@ a{
     color: #FFFFFF;
     text-decoration: none;
     list-style: none;
+    transition: background-color .3s, color .3s;
     
    
     
